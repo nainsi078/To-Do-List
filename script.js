@@ -46,11 +46,6 @@ function showTask(){
 }
 showTask();
 
-
-inputBox.addEventListener("click", () => {
-    addTask();
-    });
-
  inputBox.addEventListener("keyup", (event) => {
     if(event.which === 13){
     addTask();
